@@ -1,0 +1,39 @@
+body {
+    background-image: url("assets/images/corneria.jpg")
+}
+
+.row {
+    
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    
+}
+.fighter {
+    height: 200px;
+    width: 200px;
+    background-color: #ccc;
+    border: 2px black solid;
+    border-radius: 4px;
+    
+    display: inline-block;
+}
+
+.row::after {
+    clear: both;
+    content: "";
+    display: none;
+}
+
+#fight-position-1 {
+    float: left;
+}
+#fight-position-2 {
+    float: right;
+}
+
+.f-pic {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}

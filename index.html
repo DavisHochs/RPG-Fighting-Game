@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link ref="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <h1>Super Smash Bros</h1>
         <h3>Choose your fighter and let the rumble begin.</h3>
+        <div class="row">
+            <div id="kirby" class="fighter kirby">
+                <img class="f-pic" src="assets/images/SSB64_Kirby.gif">
+            </div>
+            <div id="link" class="fighter zelda">
+                <img class="f-pic" src="assets/images/SSB64_Link.gif">
+            </div>
+            <div class="fighter cptfalcon">
+                    <img class="f-pic" src="assets/images/SSB64_Falcon.gif">
+            </div>
+            <div class="fighter donkeykong">
+                    <img class="f-pic" src="assets/images/SSB64_DK.gif">
+            </div>
+        </div>
+        <div id="fight-position-1">Your Fighter!</div>
+        <div id="fight-position-2">Your Opponent!</div>
+        
+        
+        
         <script type="text/javascript" src="assets/javascript/game.js"></script>
     </body>
 </html>
